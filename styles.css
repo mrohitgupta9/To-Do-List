@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #241043;
+}
+
+ 
+.container {
+    max-width: 500px;
+    margin: 15% auto;
+    background: #424040;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #f1e9e9;
+    position: relative;
+    top: -10px;
+}
+
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#add-task-btn {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background: #218838;
+}
+
+
+/* Container for the buttons */
+.btn-container {
+    display: flex;
+    gap: 10px;
+    /* Ensures a fixed gap between Edit and Delete buttons */
+}
+
+/* Task item layout */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Task text span */
+.task-item span {
+    flex-grow: 1;
+    /* Ensures the text takes up available space */
+    margin-right: 20px;
+    /* Adds spacing between the text and buttons */
+    word-wrap: break-word;
+    font-size: 18px;
+    color: #fff;
+    /* Prevents long words from overflowing */
+}
+
+/* Button styles */
+.task-item button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: #ffc107;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
