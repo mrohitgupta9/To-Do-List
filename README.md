@@ -1,2 +1,2 @@
 # To-Do-List
-This is a to do list , you can add, edit and delete the item.
+A simple web application where users can add tasks, mark them as completed, and delete tasks. Built using plain HTML, CSS, and JavaScript.
